@@ -13,12 +13,21 @@ class Cliente(Usuario):
     '''
     <<Documentação da classe>>
     '''
-    def __init__(self):
+    def __init__(self, nome, cpf, telefone):
         super().__init__()
+        self.nome = nome
+        self.cpf = cpf
+        self.telefone = telefone
+
+    def __str__(self):
+        return f"Cliente: {self.nome} | CPF: {self.cpf} | Tel: {self.telefone}"
+
+    def adicionar_conta(self):
         pass
 
 
-class Administrador(Usuario):
+
+class Gerente(Usuario):
     '''
     <<Documentação da classe>>
     '''

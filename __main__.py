@@ -2,7 +2,7 @@ from classes_banco.usuario import Conta, Cliente
 import persistencia.persistencia as persistencia
 
 def main():
-    print("=== ETAPA 1: CRIANDO OBJETOS E SALVANDO ===")
+    '''print("=== ETAPA 1: CRIANDO OBJETOS E SALVANDO ===")
     
     # 1. Instanciando clientes
     c1 = Cliente("Ana Silva", "111.222.333-44")
@@ -30,7 +30,8 @@ def main():
     print(f"Quantidade de contas carregadas: {len(contas_recuperadas)}\n")
     for conta in contas_recuperadas:
         print(conta)
-        print(f" -> Detalhes do titular: {conta.titular}")
+        print(f" -> Detalhes do titular: {conta.titular}")'''
+    pass
 
 if __name__ == "__main__":
     main()
