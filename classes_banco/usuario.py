@@ -37,3 +37,10 @@ class Administrador(Usuario):
 
     def gerar_relatorio(self, bank: Banco) -> str:
         pass
+
+class Clientes:
+    '''
+    <<Documentação da classe>>
+    '''
+    def __init__(self):
+        pass
