@@ -18,6 +18,7 @@ class Cliente(Usuario):
         self.nome = nome
         self.cpf = cpf
         self.telefone = telefone
+        self.contas: list[Conta] = []
 
     def __str__(self):
         return f"Cliente: {self.nome} | CPF: {self.cpf} | Tel: {self.telefone}"
